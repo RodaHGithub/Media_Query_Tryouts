@@ -38,7 +38,7 @@ html {                                                    /*Looks*/
 }
 
 .menu li:hover {                            /*Looks*/
-  background-color: #0099cc;
+  background-color: #2d732c;
 }
 
 .aside {                                      /*Looks*/
@@ -51,7 +51,7 @@ html {                                                    /*Looks*/
 }
 
 .footer {                                      /*Looks*/
-  background-color: #0099cc;
+  background-color: #2d732c;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
