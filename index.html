@@ -2,15 +2,51 @@
 <html lang="en">
 
   <head>
-     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">    <!-- no charset="utf-8" ? -->
      <title>Media Queries</title>
      
      <link rel="stylesheet"  href="index.css"/>  
   </head>
 
 <body>
-  <h1> content TBA </h1>
-  <p> coming soon </p>
+   <header class="header">
+       <h1>Responsive Web Design &amp; Media Queries</h1>
+   </header>
+  
+ <!-- Desktop: The first and the third section will both span 3 columns each. The middle section will span 6 columns. -->
+ <!-- Tablet: The first section will span 3 columns, the second will span 9, and the third section will be displayed below the first two sections, and it will span 12 columns:-->
+ 
+  <section class="row">
+       <article class="col-3 col-s-3 menu">
+          <ul>
+            <li>The Intro</li>
+            <li>The Viewport</li>
+            <li>The Grid View</li>
+            <li>The Media Queries</li>
+          </ul>
+      </article>
+
+      <article class="col-6 col-s-9">
+          <h1>What is Responsive Web Design?</h1>
+          <p>Responsive Web Design makes the web page look good on all devices by the use of Grids and Media Queries in html and CSS.</p>
+      </article>
+
+      <article class="col-3 col-s-12">
+          <aside class="aside">
+            <h2>What?</h2>
+            <p>RWD resizes the content to fit the screen of different device sizes.</p>
+            <h2>Where?</h2>
+            <p>HTML & CSS, no programming languages.</p>
+            <h2>How?</h2>
+            <p> Use <meta> &amp; viewport element, Grid-view and Media Queries.</p>
+         </aside>
+      </article>
+</section>
+
+<footer class="footer">
+  <p>Resize the browser window &amp; test how the content respond to the resizing.</p>
+</footer>
+  
 </body>
 
 </html>
